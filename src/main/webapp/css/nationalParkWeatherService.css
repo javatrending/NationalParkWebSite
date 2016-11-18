@@ -1,0 +1,324 @@
+******homepage*********
+
+.homePage {
+	display: block;
+	width: 90%;
+	margin: 10px auto;
+	vertical-align: top;
+	min-height: 450px;
+	text-align: center;
+	padding-bottom: 100px;
+}
+
+.logoImg {
+	height: 200px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+.content {
+	margin: 30px;
+}
+
+.parkImg {
+	position:relative;
+	display:inline-block;
+	width:275px;
+	vertical-align: top;
+}
+
+.parkImg img {
+	height: 200px;
+	display: inline-block;
+	margin: auto;
+	padding: 2px;
+	border: 2px solid #54a861;
+}
+
+.detail {
+	position: relative;
+	display: inline-block;
+	left: 10%;
+	padding-top: 0;
+	vertical-align: top;
+	width:500px;
+	margin-top: 0px;
+	
+}
+
+#discription {
+	margin-top: 0;
+	font-family: Georgia;
+	font-size: 18px;
+	color: #535253;
+	font-weight: 20;
+
+}
+
+.parkdiv {
+	heigth: 500px;
+	max-width: 80%;
+	padding-top: 20px;
+	padding-bottom: 70px;
+	border-radius: 15px;
+	border: 3px solid #54a861;
+	margin: 20px;
+	margin-bottom: 40px;
+	padding-left: 70px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #b5f7da;
+	
+}
+
+.parkName {
+	font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+	font-size: 40px;
+	font-style: normal;
+	font-variant: small-caps;
+	font-weight: 400;
+	margin-bottom: 5px;
+	color: black;
+}
+
+.parkName a:visited, a:link, a:active {
+	text-decoration: none;
+}
+
+#stateHomePage {
+	font-family: Courier;
+	font-size: 20px;
+	font-style: italic;
+	font-variant: normal;
+	margin-top: 0px;
+}
+
+
+********header**********
+
+div#surveyDiv {
+	position: fixed;
+}
+
+.surveyButton {
+	width: 220px;
+	position: fixed;
+	top: 35%;
+	right: 1%;	
+	
+}
+
+.topThreePark {
+	width: 150px;
+}
+
+********parkDetail********
+
+.parkDetail {
+	display: block;
+	width: 90%;
+	margin: 10px auto;
+	vertical-align: top;
+	min-height: 450px;
+	text-align: center;
+	padding-bottom: 100px;
+}
+
+.detailBox {
+	heigth: 500px;
+	max-width: 75%;
+	padding-top: 20px;
+	padding-bottom: 70px;
+	border-radius: 15px;
+	border: 3px solid #54a861;
+	margin: 20px;
+	margin-bottom: 40px;
+	padding-left: 70px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #b5f7da;
+}
+
+.detailTop {
+	text-align: center;
+	padding-right: 70px;
+}
+.quote {
+	font-family: cursive;
+	font-size: 18px;
+	margin-bottom: 0px;
+}
+
+.quoteBy {
+	text-align: right;
+	fint-size: 15px;
+	font-style: italic;
+	margin-top: 0px;
+	padding-bottom: 20px;
+	margin-right: 40px;
+}
+
+.imgDetail {
+	width: 800px;
+	position: relative;
+}
+
+.parkDetailImg {
+	width: 800px;
+	display: inline-block;
+	margin: auto;
+	padding: 2px;
+	border: 2px solid white;
+}
+
+#detailDescription {
+	font-family: Georgia;
+	font-size: 18px;
+	color: #535253;
+	font-weight: 20;
+	padding-right: 100px;
+	text-align: center;
+}
+
+
+.forecastLink {
+	text-align: center;
+	text-shadow: 0 0 2.5em red;
+	font-family:Tahoma;
+	
+}
+.detailList {
+	list-style: none;
+	font-family: Georgia;
+}
+
+.detailList span {
+	font-weight: bold;
+}
+
+*******weather********
+
+.weather {
+	width: 90%;
+	margin: 10px auto;
+	vertical-align: top;
+	min-height: 450px;
+	text-align: center;
+	padding-bottom: 100px
+}
+
+.todayForecast {
+	heigth: 800px;
+	max-width: 80%;
+	padding-top: 20px;
+	padding-bottom: 70px;
+	border-radius: 15px;
+	border: 3px solid #2a7fba;
+	margin: 20px;
+	margin-bottom: 40px;
+	padding-left: 70px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #9ed5f7;
+}
+
+.todayForecast h1 {
+	font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+	font-size: 40px;
+	text-align: center;
+	font-variant: small-caps;
+	font-weight: 400;
+	margin-bottom: 5px;
+	color: black;
+	margin-bottom: 40px;
+}
+
+.todayDiv {
+	width: 350px;
+	height:350px;
+	border: 2px solid white;
+	margin: 30px;
+	border-radius: 30px;
+	overflow:auto;
+
+	
+}
+#todaypic{
+	width:350px;
+	
+}  
+
+ul {
+	list-style: none;
+}
+
+.high, .low {
+	text-align: center;
+	font-family: Tahoma;
+	font-size: 17px;
+}
+
+.detail ul li {
+	list-style: none;
+	
+}
+.details{
+	position:absolute;
+	left: 60%;
+	top:90%;
+	font-family: Courier, monospace;
+	font-size: 20px;
+	line-height: 40px;
+}
+
+#dailyLo, #dailyHi {
+	font-size: 40px;
+}
+
+.fiveDaysForecast {
+	padding-top: 20px;
+	padding-bottom: 70px;
+	margin: 20px;
+	margin-bottom: 40px;
+	padding-left: 70px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.fiveDays {
+	height: 270px;
+	width: 270px;
+	border: 2px solid #61bdfe;
+	border-radius: 15px 15px 15px 15px;
+	display: inline-block;
+	padding-bottom: 20px;
+	
+}
+
+.changeTemp {
+	padding-left: 50px;
+}
+
+.advice{
+	position:absolute;
+	right:50%;
+	top:50%;
+}
+
+.inputSurvey {
+	margin-left: 100px;
+}
+#forecastPic {
+	height: 180px;
+	
+}
+ *****footer******
+ 
+#copyright {
+ 	text-align: center;
+}
+.survey{
+	padding-left:400px;
+}
